@@ -1,0 +1,58 @@
+
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkInit
+
+SCTP Chunk Type: 1
+SCTP Chunk Length: 36
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkShutdown / Padding
+
+SCTP Chunk Type: 7
+SCTP Chunk Length: 8
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkShutdown / Padding
+
+SCTP Chunk Type: 7
+SCTP Chunk Length: 8
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkInit
+
+SCTP Chunk Type: 1
+SCTP Chunk Length: 36
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.155 > 10.10.10.7 sctp / SCTP / SCTPChunkHeartbeatReq
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkInit
+
+SCTP Chunk Type: 1
+SCTP Chunk Length: 36
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.155 > 10.10.10.7 sctp / SCTP / SCTPChunkInitAck
+
+SCTP Chunk Type: 2
+SCTP Chunk Length: 260
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkCookieEcho
+
+SCTP Chunk Type: 10
+SCTP Chunk Length: 232
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.155 > 10.10.10.7 sctp / SCTP / SCTPChunkCookieAck / Padding
+
+SCTP Chunk Type: 11
+SCTP Chunk Length: 4
+SCTP Chunk Data: NO HAY DATOS!!!
+
+Captured SCTP packet: Ether / 10.10.10.7 > 10.10.10.155 sctp / SCTP / SCTPChunkData
+
+SCTP Chunk Type: 0
+SCTP Chunk Length: 88
+SCTP Chunk Data: b'\x00\x15\x00D\x00\x00\x04\x00\x1b\x00\t\x00\x02\xf89P\x00\x00\x00\x01\x00R@\x17\n\x00UERANSIM-gnb-208-93-1\x00f\x00\x10\x00\x00\x00\x00\x01\x00\x02\xf89\x00\x00\x10\x08\x01\x02\x03\x00\x15@\x01@'
+

@@ -1,0 +1,8 @@
+evdev==1.9.2
+keyboard==0.13.5
+pynput==1.8.1
+pysctp==0.7.2
+python-xlib==0.33
+PyX==0.16
+scapy==2.6.1
+six==1.17.0
