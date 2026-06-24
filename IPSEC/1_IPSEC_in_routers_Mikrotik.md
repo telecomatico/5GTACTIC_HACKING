@@ -131,7 +131,7 @@ To save settings:
 
 </div>
 
-## Activar y Desactivar IPSEC
+## Activating and Deactivating IPSEC
 
 To disable the use of IPSEC, simply execute on both routers:
 

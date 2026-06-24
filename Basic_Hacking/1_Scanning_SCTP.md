@@ -1,6 +1,6 @@
 <div class="page">
 
-# HCreating an SCTP scanner
+# Creating an SCTP scanner
 
 \
 

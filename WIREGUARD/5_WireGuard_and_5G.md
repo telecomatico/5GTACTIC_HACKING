@@ -1,10 +1,10 @@
 <div class="page">
 
-# WireGuard y 5G
+# WireGuard & 5G
 
 \
 
-## ¿Dónde se puede usar WireGuard en Open5GS?
+## Where could be used WireGuard over 5G?
 
 Open5GS is an implementation of the 4G/5G core that runs on
 containers or services in Linux. WireGuard can be used to:
@@ -15,7 +15,7 @@ containers or services in Linux. WireGuard can be used to:
 - Create secure tunnels between containers in virtualized environments or
   in the cloud.
 
-## Ejemplo de integración
+## Integration example
 
 Suppose you have:
 

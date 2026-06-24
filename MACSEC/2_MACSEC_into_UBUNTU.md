@@ -1,6 +1,6 @@
 <div class="page">
 
-# MACSEC en UBUNTU
+# MACSEC in UBUNTU
 
 \
 
@@ -45,16 +45,16 @@ a MACsec frame:
   secure channel identifier, which is the concatenation of the address
   MAC of the physical interface and a 16-bit port ID.</span>
 
-## Terminología MACsec
+## MACsec terms
 
-- • <span style="indent:1;">• MKA (MACSec Key Agreement): protocol
+- • <span style="indent:1;">MKA (MACSec Key Agreement): protocol
   key agreement to discover MACsec pairs and negotiate keys.
   Represents the MACsec peer control protocol.</span>
 - <span style="indent:1;">CA (Connectivity Association): connection relationship
   security established and maintained by key agreement protocols
   (MKA). The encryption key used by CA participants is
   called CAK (connectivity association key).</span>
-- <span style="indent:1;">CAK (Connectivity Association Key):
+- <span style="indent:1;" CAK (Connectivity Association Key):
   long-lived primary key used to generate all
   other keys used for MACsec.</span>
 
@@ -65,7 +65,7 @@ a MACsec frame:
 <span style="indent:2;">After generating the CAK, two
 keys:</span>
 
-- • <span style="indent:3;">• Key Encryption Key (KEK): key
+- <span style="indent:3;"> Key Encryption Key (KEK): key
   to protect and encrypt MACsec keys (encrypt the SAK).</span>
 - <span style="indent:3;">Connection Integrity Key (ICK): key
   to check the integrity of each MKPDU sent between two peers. If
@@ -82,7 +82,7 @@ To check the kernel version:
 
 <div class="codebox">
 
-uname -r
+  uname -r
 
 </div>
 
@@ -90,7 +90,7 @@ To see if that kernel supports MACSEC:
 
 <div class="codebox">
 
-grep -i macsec /boot/config-6.6.11_1
+  grep -i macsec /boot/config-6.6.11_1
 
 </div>
 
@@ -105,7 +105,7 @@ MACsec. If the module loads without errors, the kernel supports MACsec.
 
 <div class="codebox">
 
-sudo modprobe macsec
+  sudo modprobe macsec
 
 </div>
 
@@ -113,25 +113,25 @@ To verify that the module is loaded:
 
 <div class="codebox">
 
-lsmod | grep macsec
+  lsmod | grep macsec
 
 </div>
 
-## Herramientas asociadas
+## Related tools
 
 The macsec-tools package includes several useful tools for
 configure and manage MACsec on Linux systems.
 
 <div class="codebox">
 
-sudo apt-get install macsec-tools
+  sudo apt-get install macsec-tools
 
 </div>
 
 Here is a list of some of the main tools that
 you can find in this package 1:
 
-- • <span style="indent:1;">• macsec: Main utility to configure
+- <span style="indent:1;">• macsec: Main utility to configure
   and manage MACsec interfaces.</span>
 - <span style="indent:1;">ip macsec: Command of the ip tool that
   Allows you to add, modify and delete MACsec configurations in

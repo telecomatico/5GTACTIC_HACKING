@@ -1,6 +1,6 @@
 <div class="page">
 
-# WireGuard en routers Mikrotik
+# WireGuard in routers Mikrotik
 
 \
 
@@ -12,7 +12,7 @@ private:
 
 <div class="codebox">
 
-/interface wireguard add name=wg0 listen-port=51820
+    /interface wireguard add name=wg0 listen-port=51820
 
 </div>
 
@@ -23,7 +23,7 @@ On node 2 we repeat the process, but without specifying the port:
 
 <div class="codebox">
 
-/interface wireguard add name=wg0
+    /interface wireguard add name=wg0
 
 </div>
 
@@ -35,7 +35,7 @@ We create the virtual interface “wg0” on node 1
 
 <div class="codebox">
 
-/ip address add address=10.0.0.1/24 interface=wg0
+    /ip address add address=10.0.0.1/24 interface=wg0
 
 </div>
 
@@ -43,7 +43,7 @@ We add the Peer, using B's public key:
 
 <div class="codebox">
 
-/interface wireguard peers add interface=wg0 public-key="public_key_B" allowed-address=10.0.0.2/32
+    /interface wireguard peers add interface=wg0 public-key="public_key_B" allowed-address=10.0.0.2/32
 
 </div>
 
@@ -53,7 +53,7 @@ We create the virtual interface "wg0":
 
 <div class="codebox">
 
-ip address add address=10.0.0.2/24 interface=wg0
+    ip address add address=10.0.0.2/24 interface=wg0
 
 </div>
 
@@ -62,7 +62,7 @@ PUBLIC_IP_ROUTER_A:
 
 <div class="codebox">
 
-/interface wireguard peers add interface=wg0 public-key="public_key_A" allowed-address=10.0.0.1/32 endpoint-address=IP_PUBLICA_ROUTER_A endpoint-port=51820
+    /interface wireguard peers add interface=wg0 public-key="public_key_A" allowed-address=10.0.0.1/32 endpoint-address=IP_PUBLICA_ROUTER_A endpoint-port=51820
 
 </div>
 

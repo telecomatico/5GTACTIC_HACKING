@@ -15,7 +15,7 @@ WireGuard is a modern VPN protocol that operates at the **network level
 
 1. 2\.
 
-    ## 2. Protocolos y criptografía que utiliza
+    ## 2. Protocols & criptography
 
 WireGuard does not use traditional protocols such as IPsec or TLS. Instead,
 implements its own set of cryptographic protocols:
@@ -31,7 +31,7 @@ implements its own set of cryptographic protocols:
 
 1. 3\.
 
-    ## 3. Proceso de establecimiento del túnel
+    ## 3. Tunnel stablishment process
 
 WireGuard does not have a complex handshake like IPsec or TLS. The process
 It is **very efficient** and is based on public key exchange.
@@ -71,14 +71,14 @@ It is **very efficient** and is based on public key exchange.
 
 1. 4\.
 
-    ## 4. ¿Qué transporta WireGuard?
+    ## 4. What is transported by WireGuard?
 
 WireGuard encapsulates IP packets within **UDP**. By default it uses the
 port `51820/udp`, but can be configured.
 
 1. 5\.
 
-    ## 5. Diferencias con IPsec y OpenVPN
+    ## 5. Differences with IPsec and OpenVPN
 
 | Feature | WireGuard | IPsec | OpenVPN |
 |-----------------|--------|-----------------|--------------------------------|
@@ -90,8 +90,8 @@ port `51820/udp`, but can be configured.
 
 1. 6\.
 
-    ## 6. Configuración Base:
+    ## 6. Base Configuration:
 
-d[![](images/136-1.png)](https://www.zenarmor.com/docs/assets/images/figure-1-wireguardp2pvpntopology-452e7a073da12769cdd9e6530d5da284.png)
+d[![](../images/136-1.png)](https://www.zenarmor.com/docs/assets/images/figure-1-wireguardp2pvpntopology-452e7a073da12769cdd9e6530d5da284.png)
 
 </div>
